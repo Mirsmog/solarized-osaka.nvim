@@ -472,8 +472,7 @@ function M.setup()
 
     -- Telescope
     TelescopeBorder = { fg = c.base02, bg = c.bg_float },
-    -- TelescopeNormal = { fg = c.base0, bg = c.bg_float },
-    TelescopeNormal = { fg = "NONE", bg = c.bg_float },
+    TelescopeNormal = { fg = c.base0, bg = c.bg_float },
 
     -- NvimTree
     NvimTreeNormal = { fg = c.base00, bg = c.bg_sidebar },
