@@ -6,7 +6,7 @@ local solarized_osaka = {}
 solarized_osaka.normal = {
   a = { bg = colors.blue, fg = colors.black },
   b = { bg = colors.base0, fg = colors.base04 },
-  c = { bg = colors.bg_statusline, fg = colors.fg },
+  c = { bg = "transparent", fg = colors.fg },
 }
 
 solarized_osaka.insert = {
@@ -30,9 +30,9 @@ solarized_osaka.terminal = {
 }
 
 solarized_osaka.inactive = {
-  a = { bg = colors.bg_statusline, fg = colors.blue },
-  b = { bg = colors.bg_statusline, fg = colors.fg, gui = "bold" },
-  c = { bg = colors.bg_statusline, fg = colors.fg },
+  a = { bg = "transparent", fg = colors.blue },
+  b = { bg = "transparent", fg = colors.fg, gui = "bold" },
+  c = { bg = "transparent", fg = colors.fg },
 }
 
 if config.lualine_bold then
