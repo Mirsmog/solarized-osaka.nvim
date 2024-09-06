@@ -473,6 +473,10 @@ function M.setup()
     -- Telescope
     TelescopeBorder = { fg = c.base02, bg = c.bg_float },
     TelescopeNormal = { fg = c.base0, bg = c.bg_float },
+    TelescopeSelection = {
+      bg = c.bg,
+      fg = c.violet700,
+    },
 
     -- NvimTree
     NvimTreeNormal = { fg = c.base00, bg = c.bg_sidebar },
@@ -790,7 +794,7 @@ function M.setup()
     MiniClueSeparator = { link = "DiagnosticFloatingInfo" },
     MiniClueTitle = { link = "FloatTitle" },
 
-    MiniCompletionActiveParameter = { link = 'LspSignatureActiveParameter' },
+    MiniCompletionActiveParameter = { link = "LspSignatureActiveParameter" },
 
     MiniCursorword = { underline = true },
     MiniCursorwordCurrent = { underline = true },
