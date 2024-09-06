@@ -475,7 +475,7 @@ function M.setup()
     TelescopeNormal = { fg = c.base0, bg = c.bg_float },
     TelescopeSelection = {
       bg = c.bg_float,
-      fg = c.magenta,
+      fg = c.magenta500,
     },
 
     -- NvimTree
